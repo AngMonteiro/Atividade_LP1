@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jLabel1" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" pref="79" max="-2" attributes="0"/>
+              <Component id="btnNovo" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+              <Component id="btnSalvar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
+              <Component id="btnCancelar" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="111" max="-2" attributes="0"/>
+              <Component id="btnExcluir" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="btnSair" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="190" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                  <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel7" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="marca_carro" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                          <Component id="anoModelo_carro" min="-2" pref="180" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          <Component id="anoFabricacao_carro" min="-2" pref="180" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="jLabel6" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="modelo_carro" alignment="0" max="32767" attributes="0"/>
+                  <Component id="versao_carro" alignment="0" max="32767" attributes="0"/>
+                  <Component id="cor_carro" alignment="0" max="32767" attributes="0"/>
+                  <Component id="jLabel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="quilometragem_carro" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="blindagem_carro" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                          <Component id="placa_carro" min="-2" pref="178" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="preco_carro" min="-2" pref="405" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="27" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" min="-2" pref="432" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="pesquisa_marca" min="-2" pref="308" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btnPesquisar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="marca_carro" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" pref="15" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="modelo_carro" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="anoModelo_carro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="anoFabricacao_carro" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="versao_carro" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="cor_carro" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="quilometragem_carro" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="preco_carro" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="jLabel10" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="3" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="blindagem_carro" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="placa_carro" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="pesquisa_marca" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel12" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="btnPesquisar" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" min="-2" pref="331" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="31" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btnNovo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnSalvar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnCancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnExcluir" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnSair" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Arial" size="18" style="1"/>
+        </Property>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="Preencha os dados do seu ve&#xed;culo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="marca_carro">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="221">
+            <StringItem index="0" value="CHEVROLET"/>
+            <StringItem index="1" value="FIAT"/>
+            <StringItem index="2" value="FORD"/>
+            <StringItem index="3" value="HONDA"/>
+            <StringItem index="4" value="HYUNDAI"/>
+            <StringItem index="5" value="MITSUBISHI"/>
+            <StringItem index="6" value="NISSAN"/>
+            <StringItem index="7" value="PEUGEOT"/>
+            <StringItem index="8" value="RENAULT"/>
+            <StringItem index="9" value="TOYOTA"/>
+            <StringItem index="10" value="VOLKSWAGEN"/>
+            <StringItem index="11" value="VOLVO"/>
+            <StringItem index="12" value="ACURA"/>
+            <StringItem index="13" value="ADAMO"/>
+            <StringItem index="14" value="AGNIS"/>
+            <StringItem index="15" value="AGRALE"/>
+            <StringItem index="16" value="ALFA ROMEO"/>
+            <StringItem index="17" value="AMAZONAS"/>
+            <StringItem index="18" value="AMERICAR"/>
+            <StringItem index="19" value="ANGRA"/>
+            <StringItem index="20" value="ASIA"/>
+            <StringItem index="21" value="ASTON MARTIN"/>
+            <StringItem index="22" value="AUDI"/>
+            <StringItem index="23" value="AUSTIN-HEALEY"/>
+            <StringItem index="24" value="AVALLONE"/>
+            <StringItem index="25" value="BAJA"/>
+            <StringItem index="26" value="BEACH"/>
+            <StringItem index="27" value="BENTLEY"/>
+            <StringItem index="28" value="BIANCO"/>
+            <StringItem index="29" value="BMW"/>
+            <StringItem index="30" value="BORGWARD"/>
+            <StringItem index="31" value="BRASFIBRA"/>
+            <StringItem index="32" value="BRILLIANCE"/>
+            <StringItem index="33" value="BRM"/>
+            <StringItem index="34" value="BUGATTI"/>
+            <StringItem index="35" value="BUGRE"/>
+            <StringItem index="36" value="BUGWAY"/>
+            <StringItem index="37" value="BUICK"/>
+            <StringItem index="38" value="BYD"/>
+            <StringItem index="39" value="CADILLAC"/>
+            <StringItem index="40" value="CAOA CHERY"/>
+            <StringItem index="41" value="CAUYPE"/>
+            <StringItem index="42" value="CBP"/>
+            <StringItem index="43" value="CBT"/>
+            <StringItem index="44" value="CHAMONIX"/>
+            <StringItem index="45" value="CHANA"/>
+            <StringItem index="46" value="CHANGAN"/>
+            <StringItem index="47" value="CHEDA"/>
+            <StringItem index="48" value="CHEVROLET"/>
+            <StringItem index="49" value="CHRYSLER"/>
+            <StringItem index="50" value="CITRO&#xcb;N"/>
+            <StringItem index="51" value="CORD"/>
+            <StringItem index="52" value="COYOTE"/>
+            <StringItem index="53" value="CROSS LANDER"/>
+            <StringItem index="54" value="D2D MOTORS"/>
+            <StringItem index="55" value="DACON"/>
+            <StringItem index="56" value="DAEWOO"/>
+            <StringItem index="57" value="DAIHATSU"/>
+            <StringItem index="58" value="DATSUN"/>
+            <StringItem index="59" value="DE SOTO"/>
+            <StringItem index="60" value="DE TOMASO"/>
+            <StringItem index="61" value="DELOREAN"/>
+            <StringItem index="62" value="DKW-VEMAG"/>
+            <StringItem index="63" value="DODGE"/>
+            <StringItem index="64" value="DUNNAS"/>
+            <StringItem index="65" value="EAGLE"/>
+            <StringItem index="66" value="EDSEL"/>
+            <StringItem index="67" value="EFFA"/>
+            <StringItem index="68" value="EGO"/>
+            <StringItem index="69" value="EMIS"/>
+            <StringItem index="70" value="ENGESA"/>
+            <StringItem index="71" value="ENSEADA"/>
+            <StringItem index="72" value="ENVEMO"/>
+            <StringItem index="73" value="FARGO"/>
+            <StringItem index="74" value="FARUS"/>
+            <StringItem index="75" value="FERCAR BUGGY"/>
+            <StringItem index="76" value="FERRARI"/>
+            <StringItem index="77" value="FEVER"/>
+            <StringItem index="78" value="FIAT"/>
+            <StringItem index="79" value="FIBRARIO"/>
+            <StringItem index="80" value="FIBRAVAN"/>
+            <StringItem index="81" value="FISKER"/>
+            <StringItem index="82" value="FNM"/>
+            <StringItem index="83" value="FORD"/>
+            <StringItem index="84" value="FOTON"/>
+            <StringItem index="85" value="FYBER"/>
+            <StringItem index="86" value="GEELY"/>
+            <StringItem index="87" value="GEO"/>
+            <StringItem index="88" value="GIANTS"/>
+            <StringItem index="89" value="GLASPAC"/>
+            <StringItem index="90" value="GMC"/>
+            <StringItem index="91" value="GRANCAR"/>
+            <StringItem index="92" value="GREAT WALL"/>
+            <StringItem index="93" value="GURGEL"/>
+            <StringItem index="94" value="GWM"/>
+            <StringItem index="95" value="HAFEI"/>
+            <StringItem index="96" value="HB"/>
+            <StringItem index="97" value="HOFSTETTER"/>
+            <StringItem index="98" value="HONDA"/>
+            <StringItem index="99" value="HUDSON"/>
+            <StringItem index="100" value="HUMMER"/>
+            <StringItem index="101" value="HUPMOBILE"/>
+            <StringItem index="102" value="HYUNDAI"/>
+            <StringItem index="103" value="ICOMDA"/>
+            <StringItem index="104" value="INCOFER"/>
+            <StringItem index="105" value="INFINITI"/>
+            <StringItem index="106" value="INTERNATIONAL"/>
+            <StringItem index="107" value="ISUZU"/>
+            <StringItem index="108" value="IVECO"/>
+            <StringItem index="109" value="JAC"/>
+            <StringItem index="110" value="JAGUAR"/>
+            <StringItem index="111" value="JEEP"/>
+            <StringItem index="112" value="JENSEN"/>
+            <StringItem index="113" value="JINBEI"/>
+            <StringItem index="114" value="JONWAY"/>
+            <StringItem index="115" value="JPX"/>
+            <StringItem index="116" value="KADRON"/>
+            <StringItem index="117" value="KAISER"/>
+            <StringItem index="118" value="KIA"/>
+            <StringItem index="119" value="KOENIGSEGG"/>
+            <StringItem index="120" value="L AUTOMOBILE"/>
+            <StringItem index="121" value="L&#xb4;AUTO CRAFT"/>
+            <StringItem index="122" value="LADA"/>
+            <StringItem index="123" value="LAMBORGHINI"/>
+            <StringItem index="124" value="LANCIA"/>
+            <StringItem index="125" value="LAND ROVER"/>
+            <StringItem index="126" value="LANDWIND"/>
+            <StringItem index="127" value="LEXUS"/>
+            <StringItem index="128" value="LHM"/>
+            <StringItem index="129" value="LIFAN"/>
+            <StringItem index="130" value="LINCOLN"/>
+            <StringItem index="131" value="LOBINI"/>
+            <StringItem index="132" value="LOTUS"/>
+            <StringItem index="133" value="LUCID"/>
+            <StringItem index="134" value="MAGNATA"/>
+            <StringItem index="135" value="MAHINDRA"/>
+            <StringItem index="136" value="MARCOPOLO"/>
+            <StringItem index="137" value="MARINA&#xb4;S"/>
+            <StringItem index="138" value="MASERATI"/>
+            <StringItem index="139" value="MATRA"/>
+            <StringItem index="140" value="MAYBACH"/>
+            <StringItem index="141" value="MAZDA"/>
+            <StringItem index="142" value="MCLAREN"/>
+            <StringItem index="143" value="MENON"/>
+            <StringItem index="144" value="MERCEDES-BENZ"/>
+            <StringItem index="145" value="MERCURY"/>
+            <StringItem index="146" value="MG"/>
+            <StringItem index="147" value="MINI"/>
+            <StringItem index="148" value="MITSUBISHI"/>
+            <StringItem index="149" value="MIURA"/>
+            <StringItem index="150" value="MOBBY"/>
+            <StringItem index="151" value="MORGAN"/>
+            <StringItem index="152" value="MORRIS"/>
+            <StringItem index="153" value="MP LAFER"/>
+            <StringItem index="154" value="MPLM"/>
+            <StringItem index="155" value="NASH"/>
+            <StringItem index="156" value="NETA"/>
+            <StringItem index="157" value="NEWTRACK"/>
+            <StringItem index="158" value="NISSAN"/>
+            <StringItem index="159" value="NURBURGRING"/>
+            <StringItem index="160" value="OLDSMOBILE"/>
+            <StringItem index="161" value="OPEL"/>
+            <StringItem index="162" value="PACKARD"/>
+            <StringItem index="163" value="PAG"/>
+            <StringItem index="164" value="PAGANI"/>
+            <StringItem index="165" value="PEUGEOT"/>
+            <StringItem index="166" value="PLYMOUTH"/>
+            <StringItem index="167" value="PONTIAC"/>
+            <StringItem index="168" value="PORSCHE"/>
+            <StringItem index="169" value="PUMA"/>
+            <StringItem index="170" value="RAM"/>
+            <StringItem index="171" value="RDK"/>
+            <StringItem index="172" value="RELY"/>
+            <StringItem index="173" value="RENAULT"/>
+            <StringItem index="174" value="RENO"/>
+            <StringItem index="175" value="REVA-I"/>
+            <StringItem index="176" value="RILEY"/>
+            <StringItem index="177" value="RIVIAN"/>
+            <StringItem index="178" value="ROLLS-ROYCE"/>
+            <StringItem index="179" value="ROMI"/>
+            <StringItem index="180" value="ROVER"/>
+            <StringItem index="181" value="SAAB"/>
+            <StringItem index="182" value="SANTA MATILDE"/>
+            <StringItem index="183" value="SATURN"/>
+            <StringItem index="184" value="SEAT"/>
+            <StringItem index="185" value="SELVAGEM"/>
+            <StringItem index="186" value="SERES"/>
+            <StringItem index="187" value="SHELBY"/>
+            <StringItem index="188" value="SHINERAY"/>
+            <StringItem index="189" value="SHORT"/>
+            <StringItem index="190" value="SHUANGHUAN"/>
+            <StringItem index="191" value="SIMCA"/>
+            <StringItem index="192" value="SMART"/>
+            <StringItem index="193" value="SPYKER"/>
+            <StringItem index="194" value="SSANGYONG"/>
+            <StringItem index="195" value="STANDARD"/>
+            <StringItem index="196" value="STUDEBAKER"/>
+            <StringItem index="197" value="SUBARU"/>
+            <StringItem index="198" value="SUNBEAM"/>
+            <StringItem index="199" value="SUZUKI"/>
+            <StringItem index="200" value="TAC"/>
+            <StringItem index="201" value="TANDER"/>
+            <StringItem index="202" value="TANGER"/>
+            <StringItem index="203" value="TESLA"/>
+            <StringItem index="204" value="TOY"/>
+            <StringItem index="205" value="TOYOTA"/>
+            <StringItem index="206" value="TRIUMPH"/>
+            <StringItem index="207" value="TROLLER"/>
+            <StringItem index="208" value="UNIMOG"/>
+            <StringItem index="209" value="VENDETTA"/>
+            <StringItem index="210" value="VOLKSWAGEN"/>
+            <StringItem index="211" value="VOLVO"/>
+            <StringItem index="212" value="WAKE"/>
+            <StringItem index="213" value="WALK"/>
+            <StringItem index="214" value="WAY BRASIL"/>
+            <StringItem index="215" value="WHIPPET"/>
+            <StringItem index="216" value="WIESMANN"/>
+            <StringItem index="217" value="WILLYS"/>
+            <StringItem index="218" value="WILLYS OVERLAND"/>
+            <StringItem index="219" value="ZEEKR"/>
+            <StringItem index="220" value="ZIMMER"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="marca_carroActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Marca*"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Modelo*"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ano do Modelo*"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ano da Fabrica&#xe7;&#xe3;o*"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel6">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Vers&#xe3;o*"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel7">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cor*"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="modelo_carro">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="modelo_carroActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="anoModelo_carro">
+    </Component>
+    <Component class="javax.swing.JTextField" name="anoFabricacao_carro">
+    </Component>
+    <Component class="javax.swing.JTextField" name="versao_carro">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="versao_carroActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="cor_carro">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cor_carroActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel8">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Quilometragem*"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="quilometragem_carro">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="quilometragem_carroActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel9">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Pre&#xe7;o*"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="preco_carro">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="preco_carroActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="blindagem_carro">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="2">
+            <StringItem index="0" value="SIM"/>
+            <StringItem index="1" value="N&#xc3;O"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel10">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="11" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Blindado*"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="placa_carro">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="placa_carroActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel11">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Placa*"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnNovo">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/br/com/avaliacao2/view/imagens/novo.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Novo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnNovoActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSalvar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/br/com/avaliacao2/view/imagens/salvar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Salvar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSalvarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnCancelar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/br/com/avaliacao2/view/imagens/cancelar.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Cancelar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCancelarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnExcluir">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/br/com/avaliacao2/view/imagens/excluir.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Excluir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnExcluirActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnSair">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/br/com/avaliacao2/view/imagens/sair.png"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Sair"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnSairActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="jtl_consultar_carro">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="3" rowCount="0">
+                <Column editable="true" title="ID" type="java.lang.Object"/>
+                <Column editable="true" title="Marca" type="java.lang.Object"/>
+                <Column editable="true" title="Modelo" type="java.lang.Object"/>
+              </Table>
+            </Property>
+            <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+              <TableColumnModel selectionModel="0">
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+                <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                  <Title/>
+                  <Editor/>
+                  <Renderer/>
+                </Column>
+              </TableColumnModel>
+            </Property>
+            <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+              <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+            </Property>
+          </Properties>
+          <Events>
+            <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="jtl_consultar_carroMouseClicked"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel12">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Marca:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="pesquisa_marca">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnPesquisar">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="3" name="/br/com/avaliacao2/view/imagens/pesquisar.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnPesquisarActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
